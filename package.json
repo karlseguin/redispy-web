@@ -1,0 +1,18 @@
+{
+  "author": "Karl Seguin <karl@openmymind.net> (http://openmymind.net/)",
+  "name": "redispy-web",
+  "version": "0.0.1",
+  "repository" : { 
+    "type": "git",
+    "url": "http://github.com/karlseguin/redispy-web.git" 
+  },
+  "engines": { "node": ">=v0.6.6" },
+  "dependencies": {
+    "coffee-script": ">= 1.2.0",
+    "redispy": ">= 0.0.3",
+    "express": "2.5.4",
+    "jade": ">= 0.20.0",
+    "socket.io": ">= 0.8.7",
+    "connect-assets": ">= 2.1.7"
+  }
+}

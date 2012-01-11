@@ -1,0 +1,38 @@
+!!!
+html(lang="en")
+  head
+    title redispy
+    != css("main")
+    script(type="text/javascript", src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js")
+    script(type="text/javascript", src="/socket.io/socket.io.js")
+    != js("main")
+  body                    
+    #menu
+      form#toggle(method="post", action="/toggle")
+        input#host(type="text", name="host", value="localhost")
+        input#port(type="text", name="port", value="6379", maxlength="6")
+        input#db(type="text", name="db", value="0", maxlength="2")
+        input#submit(type="submit", value="monitor", class="button")
+
+    #main
+      #monitor
+        #mheader
+          .time time
+          .command command
+          .key key
+          .arguments arguments
+        #mbody
+        input#mclear(type="button", value="clear", class="button")
+      
+      #topCommands
+        h2 top commands
+        div
+        
+      #topKeys
+        h2 top keys
+        div
+        
+    #footer
+      div
+        a(href="http://github.com/karlseguin/redispy-web") fork it
+        a(href="http://openmymind.net") openmymind.net

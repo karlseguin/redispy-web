@@ -1,0 +1,33 @@
+*{padding:0;margin:0}
+body{font-family:verdana,arial;font-size:85%;color:#222;}
+h2{font-size:100%;}
+
+#menu{height:43px;background:#f0f0f0;border-bottom:1px solid #ddd;position:relative;}
+#toggle{position:absolute;right:100px;top:11px;}
+#toggle input{padding:4px;border-radius:3px;border:1px solid #ccc;margin-right:5px;}
+#port{width:45px;}
+#db{width:15px;}
+#submit{width:65px;text-align:center;font-size:85%;}
+#main{width:95%;margin:20px auto;}
+
+#monitor{margin-bottom:20px;}
+#mheader{padding:5px 10px;font-weight:bold;background:#666;color:#fff;border-radius:5px;}
+#mbody{height:300px;overflow:auto;border:1px solid #eee;border-radius:5px;}
+#mbody > div {padding:5px 10px;overflow:auto;}
+#monitor .time{width:80px;float:left;}
+#monitor .command{width:150px;float:left;}
+#monitor .key{width:300px;float:left;}
+#mclear {float:right;}
+
+#topCommands, #topKeys{width:350px;float:left;margin-right:20px;}
+#topCommands .hit, #topKeys .hit{padding:7px;overflow:auto;}
+#topCommands .count, #topKeys .count{float:left;width:25px;}
+/*#topCommands .item, #topKeys .item{}*/
+
+
+#footer{position:fixed;bottom:0;right:100px;}
+#footer a{display:inline-block;padding:10px;margin-left:20px;color:#444;font-size:90%;text-decoration:none;}
+#footer a:hover{text-decoration:underline;}
+
+.button {border: 1px solid #444;border-radius:4px;color: #fff;cursor:pointer;padding: 7px 20px;text-shadow:1px 1px 1px #444;display: inline-block;font-weight:bold;background:#555;font-size:110%;}
+.button:hover{background:#000;x
